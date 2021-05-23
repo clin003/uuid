@@ -205,8 +205,8 @@
                 }
 
                 // document.title += " (" + data.login + ")";
-                var title=data.name?data.name:data.login;
-                document.title += " (" + title + ")";
+                var title = data.name ? data.name : data.login;
+                document.title = title + "_" + document.title;
 
                 var nhref = "https://" + that.githost + ".com/";
 
@@ -216,7 +216,7 @@
                 var blog = data.blog;
                 if (blog) {
                     blog = blog.indexOf('//') > 0 ? blog : ('http://' + blog);
-                    indhtm.push('<a class="small" href="' + blog + '">' + blog + '</a>');
+                    indhtm.push('<a class="small" href="' + blog + '">' + data.blog + '</a>');
                 } else {
                     indhtm.push('<a class="small text-muted">no blog</a>');
                 }
