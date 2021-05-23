@@ -61,7 +61,7 @@
                     this.info();
             }
 
-            // this.jump();
+            this.jump();
 
             return this;
         },
