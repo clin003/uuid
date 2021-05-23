@@ -9,17 +9,17 @@
     - 一行对应一个链接，包含链接、文本、图标
     - 图标默认取链接主域名+favicon.ico，或在文本后面以空格+`http`开头的自定义图标地址
 - 查看（GitHub）
-    - <https://uuid.fun/{name}>，`{name}` 是你的账号，默认`netnr`
-    - <https://uuid.fun/{name}/{repos}/{libs}>，`{repos}` 仓库，默认`uuid`；`{libs}`根文件夹，默认`libs`
+    - <https://nav.3ae.cn/{name}>，`{name}` 是你的账号，默认`clin003`
+    - <https://nav.3ae.cn/{name}/{repos}/{libs}>，`{repos}` 仓库，默认`uuid`；`{libs}`根文件夹，默认`libs`
     - 如：
-    - <https://uuid.fun>
-    - <https://uuid.fun/netnr>
-    - <https://uuid.fun/netnr/uuid>
-    - <https://uuid.fun/netnr/uuid/libs>
+    - <https://nav.3ae.cn>
+    - <https://nav.3ae.cn/clin003>
+    - <https://nav.3ae.cn/clin003/uuid>
+    - <https://nav.3ae.cn/clin003/uuid/libs>
 - 查看（Gitee）
-    - <https://gitee.uuid.fun>
-    - <https://gitee.uuid.fun/netnr>
-    - <https://gitee.uuid.fun/{name}/{repos}/{libs}>
+    - <https://gitee.3ae.cn>
+    - <https://gitee.3ae.cn/lyhuilin>
+    - <https://gitee.3ae.cn/{name}/{repos}/{libs}>
 
 ### 说明
 - 可查看全局变量更多信息：`uu`

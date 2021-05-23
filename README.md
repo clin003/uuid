@@ -9,13 +9,13 @@ A decentralized favorites and bookmarks based on Git hosting
     - One line corresponds to one link, including link, text, icon
     - The icon defaults to the link main domain name + favicon.ico, or a custom icon address starting with a space + `http` after the text
 - View (GitHub)
-    - <https://uuid.fun/{name}>, `{name}` is your account, the default is `netnr`
-    - <https://uuid.fun/{name}/{repos}/{libs}>, `{repos}` repository, default `uuid`; `{libs}` root folder, default `libs`
+    - <https://nav.3ae.cn/{name}>, `{name}` is your account, the default is `clin003`
+    - <https://nav.3ae.cn/{name}/{repos}/{libs}>, `{repos}` repository, default `uuid`; `{libs}` root folder, default `libs`
     -  Such as:
-    - <https://uuid.fun>
-    - <https://uuid.fun/netnr>
-    - <https://uuid.fun/netnr/uuid>
-    - <https://uuid.fun/netnr/uuid/libs>
+    - <https://nav.3ae.cn>
+    - <https://nav.3ae.cn/clin003>
+    - <https://nav.3ae.cn/clin003/uuid>
+    - <https://nav.3ae.cn/clin003/uuid/libs>
 
 ### Description
 - You can view more information about global variables: `uu`
