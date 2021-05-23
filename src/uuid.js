@@ -204,17 +204,19 @@
                     return;
                 }
 
-                document.title += " (" + data.name + ")";
+                // document.title += " (" + data.login + ")";
+                var title=data.name?data.name:data.login;
+                document.title += " (" + title + ")";
 
                 var nhref = "https://" + that.githost + ".com/";
 
                 var indhtm = [];
                 indhtm.push('<img class="uphoto" src="' + data.avatar_url + '" onerror="this.src=\'/favicon.ico\';this.onerror=null;" />');
-                indhtm.push('<a class="text-muted h4" href="' + nhref + data.login + '">' + data.login + '</a><br/>');
+                indhtm.push('<a class="text-muted h4" href="' + nhref + data.login + '">' + title + '</a><br/>');
                 var blog = data.blog;
                 if (blog) {
                     blog = blog.indexOf('//') > 0 ? blog : ('http://' + blog);
-                    indhtm.push('<a class="small" href="' + blog + '">' + data.name + '</a>');
+                    indhtm.push('<a class="small" href="' + blog + '">' + blog + '</a>');
                 } else {
                     indhtm.push('<a class="small text-muted">no blog</a>');
                 }
