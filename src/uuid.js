@@ -50,7 +50,7 @@
                 default:
                     var pns = lpn.split('/');
                     //账号
-                    this.name = uuid.setDv(ops.name || pns[1], 'netnr');
+                    this.name = uuid.setDv(ops.name || pns[1], 'clin003');
                     //仓库
                     this.repos = uuid.setDv(ops.repos || pns[2], 'uuid');
                     //包
