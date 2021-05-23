@@ -188,7 +188,14 @@
 
                     that.showCacheInfo();
                 } else {
-                    that.showMessage('No fork')
+                    // that.showMessage('No fork')
+                    var morefork = "https://github.com" + that.nr + "";
+                    switch (that.githost) {
+                        case "gitee":
+                            morefork = "https://gitee.com" + that.nr + "";
+                            break;
+                    }
+                    that.showMessage('<a href="' + morefork + '"><img src="/favicon.ico" /><br/>fork</a>')
                 }
             })
         },
