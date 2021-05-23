@@ -204,7 +204,7 @@
                     return;
                 }
 
-                document.title += " (" + data.login + ")";
+                document.title += " (" + data.name + ")";
 
                 var nhref = "https://" + that.githost + ".com/";
 
@@ -214,7 +214,7 @@
                 var blog = data.blog;
                 if (blog) {
                     blog = blog.indexOf('//') > 0 ? blog : ('http://' + blog);
-                    indhtm.push('<a class="small" href="' + blog + '">' + data.blog + '</a>');
+                    indhtm.push('<a class="small" href="' + blog + '">' + data.name + '</a>');
                 } else {
                     indhtm.push('<a class="small text-muted">no blog</a>');
                 }
